@@ -876,3 +876,83 @@ PROJECT LAYOUT
         height: 220px;
     }
 }
+@media (max-width: 768px) {
+
+    /* HERO */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 120px 20px 60px;
+    }
+
+    .hero-name {
+        font-size: 40px;
+    }
+
+    .hero-role {
+        font-size: 28px;
+    }
+
+    .hero-text {
+        font-size: 14px;
+    }
+
+    .hero-right {
+        margin-top: 30px;
+    }
+
+    .hero-avatar {
+        width: 220px;
+    }
+
+    /* NAVBAR */
+    .navbar {
+        gap: 15px;
+        padding: 10px 20px;
+    }
+
+    .nav-links {
+        gap: 15px;
+        font-size: 14px;
+    }
+
+    /* ABOUT */
+    #about {
+        padding: 80px 20px;
+    }
+
+    /* SKILLS */
+    .tech-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .tech-card {
+        height: 120px;
+    }
+
+    .tech-card img {
+        width: 50px;
+    }
+
+    /* PROJECTS */
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-image {
+        height: auto;
+    }
+
+    .project-image img {
+        height: auto;
+        object-fit: contain;
+    }
+
+    /* CONTACT */
+    #contact {
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+}
